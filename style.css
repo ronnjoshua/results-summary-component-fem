@@ -17,8 +17,8 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 800px;
+    width: 350px;
+    height: 500px;
 }
 
 .left-right-box {
@@ -47,11 +47,11 @@ body {
 }
 
 .reaction, .memory, .verbal, .visual {
-    gap: 180px;
+    gap: 90px;
     border: 1px solid red;
     margin-bottom: 25px;
-    padding: 30px 30px;
-    border-radius: 20px;
+    padding: 18px 15px;
+    border-radius: 12px;
 }
 
 .reaction {
@@ -108,8 +108,8 @@ img {
 
 .score {
     border: 1px solid (hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
-    width: 320px;
-    height: 320px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,46 +128,49 @@ img {
 }
 
 .result {
-    font-size: 50px;
+    font-size: 25px;
     color: rgba(255, 255, 255, 0.76);
 }
 
 .over {
-    font-size: 120px;
+    font-size: 80px;
     color: white;
 }
 
 .over-score {
-    font-size: 30px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.541);
 }
 
 .adjective {
-    font-size: 45px;
+    font-size: 30px;
     color: white;
 }
 
 .description {
     color: rgba(255, 255, 255, 0.76);
     font-size: 18px;
-    width: 450px;
+    width: 230px;
     text-align: center;
 }
 
 .summary {
     border: 1px solid red;
-    font-size: 50px;
-    padding: 0 157px;
+    font-size: 25px;
+    padding: 0 83px;
     display: flex;
+    font-weight: bold;
+    text-align: left;
 }
 
 .continue-btn {
-    font-size: 33px;
-    padding: 20px 190px;
+    font-size: 18px;
+    padding: 15px 98px;
     cursor: pointer;
     border-radius: 50px;
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: white;
+    font-weight: bold;
 }
 
 
