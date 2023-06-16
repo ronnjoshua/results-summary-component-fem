@@ -1,5 +1,9 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+
 body {
-    background-color: whitesmoke;
+    font-family: 'Hanken Grotesk';
+    font-weight: bold;
+    background-color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
     position: absolute;
@@ -17,8 +21,8 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 500px;
+    width: 380px;
+    height: 550px;
 }
 
 .left-right-box {
@@ -50,24 +54,24 @@ body {
     gap: 90px;
     border: 1px solid red;
     margin-bottom: 25px;
-    padding: 18px 15px;
+    padding: 15px 15px;
     border-radius: 12px;
 }
 
 .reaction {
-    background-color: hsla(0, 100%, 67%, 0.089);
+    background-color: hsla(0, 100%, 67%, 0.041);
 }
 
 .memory {
-    background-color: hsla(39, 100%, 56%, 0.103);
+    background-color: rgba(255, 176, 31, 0.041);
 }
 
 .verbal {
-    background-color: hsla(166, 100%, 37%, 0.096);
+    background-color: hsla(166, 100%, 37%, 0.041);
 }
 
 .visual {
-    background-color: hsla(234, 85%, 45%, 0.096);
+    background-color: hsla(234, 85%, 45%, 0.041);
 }
 
 .reaction-in {
@@ -130,19 +134,24 @@ img {
 .result {
     font-size: 25px;
     color: rgba(255, 255, 255, 0.76);
+    margin-top: 22px;
 }
 
 .over {
     font-size: 80px;
     color: white;
+    font-weight: bold;
 }
 
 .over-score {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.541);
+    font-weight: bold;
+    margin-top: -12px;
 }
 
 .adjective {
+    border: 1px solid red;
     font-size: 30px;
     color: white;
 }
@@ -150,17 +159,23 @@ img {
 .description {
     color: rgba(255, 255, 255, 0.76);
     font-size: 18px;
-    width: 230px;
+    width: 255px;
     text-align: center;
+    border: 1px solid red;
+    margin-bottom: 38px;
+
 }
 
 .summary {
     border: 1px solid red;
     font-size: 25px;
-    padding: 0 83px;
     display: flex;
     font-weight: bold;
     text-align: left;
+    position: relative;
+    right: 90px;
+    margin-top: 32px;
+    margin-bottom: 15px;
 }
 
 .continue-btn {
@@ -171,6 +186,11 @@ img {
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: white;
     font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.continue-btn:active {
+    background-image: linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%));
 }
 
 
