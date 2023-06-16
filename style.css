@@ -178,7 +178,7 @@ img {
     padding: 15px 98px;
     cursor: pointer;
     border-radius: 50px;
-    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background-image: linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%));
     color: white;
     font-weight: bold;
     margin-bottom: 47px;
@@ -186,8 +186,13 @@ img {
     border: none;
 }
 
+.continue-btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
 .continue-btn:active {
-    background-image: linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%));
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    opacity: .9;
 }
 
 
