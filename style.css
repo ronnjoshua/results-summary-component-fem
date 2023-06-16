@@ -1,0 +1,178 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.left-box, .right-box {
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 800px;
+}
+
+.left-right-box {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 15px 25px 35px;
+}
+
+.left-box {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 50px;
+}
+
+.right-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reaction, .memory, .verbal, .visual, .irn, .oss {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.reaction, .memory, .verbal, .visual {
+    gap: 180px;
+    border: 1px solid red;
+    margin-bottom: 25px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.089);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.103);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.096);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.096);
+}
+
+.reaction-in {
+    color:hsl(0, 100%, 67%);
+}
+
+.memory-in {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal-in {
+   color: hsl(166, 100%, 37%); 
+}
+
+.visual-in {
+    color: hsl(234, 85%, 45%);
+}
+
+.img {
+    margin-right: 20px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+
+.irn {
+}
+
+.oss {
+    margin-left: auto;
+}
+
+.score-oss {
+    color: gray;
+}
+
+.score {
+    border: 1px solid (hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.whole-box {
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+}
+
+.result {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.over {
+    font-size: 120px;
+    color: white;
+}
+
+.over-score {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.adjective {
+    font-size: 45px;
+    color: white;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 18px;
+    width: 450px;
+    text-align: center;
+}
+
+.summary {
+    border: 1px solid red;
+    font-size: 50px;
+    padding: 0 157px;
+    display: flex;
+}
+
+.continue-btn {
+    font-size: 33px;
+    padding: 20px 190px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+}
+
+
+
+
+
+
+
