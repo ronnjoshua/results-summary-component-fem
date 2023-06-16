@@ -29,6 +29,9 @@ body {
     justify-content: space-around;
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-radius: 50px;
+    padding-right: 20px;
+    position: relative;
+    left: 40px;
 }
 
 .right-box{
@@ -37,7 +40,8 @@ body {
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     background-color: white;
-    box-shadow: 5px 10px 15px rgb(192, 192, 192);
+    box-shadow: 5px 10px 45px rgb(225, 230, 255);
+    padding-left: 35px;
 }
 
 .reaction, .memory, .verbal, .visual, .irn, .oss {
@@ -178,6 +182,7 @@ img {
     color: white;
     font-weight: bold;
     margin-bottom: 47px;
+    border: none;
 }
 
 .continue-btn:active {
