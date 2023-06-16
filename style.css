@@ -182,6 +182,7 @@ img {
     color: white;
     font-weight: bold;
     margin-bottom: 47px;
+    outline: none;
     border: none;
 }
 
