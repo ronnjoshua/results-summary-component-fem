@@ -3,7 +3,7 @@
 body {
     font-family: 'Hanken Grotesk';
     font-weight: bold;
-    background-color: hsl(0, 0%, 100%);
+    background-color: rgba(245, 245, 245, 0.719);
     display: flex;
     justify-content: center;
     position: absolute;
@@ -16,20 +16,12 @@ body {
 }
 
 .left-box, .right-box {
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 380px;
     height: 550px;
-}
-
-.left-right-box {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 15px 25px 35px;
 }
 
 .left-box {
@@ -42,6 +34,10 @@ body {
 .right-box{
     display: flex;
     justify-content: space-around;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    box-shadow: 5px 10px 15px rgb(192, 192, 192);
 }
 
 .reaction, .memory, .verbal, .visual, .irn, .oss {
@@ -52,7 +48,6 @@ body {
 
 .reaction, .memory, .verbal, .visual {
     gap: 90px;
-    border: 1px solid red;
     margin-bottom: 25px;
     padding: 15px 15px;
     border-radius: 12px;
@@ -123,7 +118,6 @@ img {
 }
 
 .whole-box {
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -151,7 +145,6 @@ img {
 }
 
 .adjective {
-    border: 1px solid red;
     font-size: 30px;
     color: white;
 }
@@ -161,13 +154,11 @@ img {
     font-size: 18px;
     width: 255px;
     text-align: center;
-    border: 1px solid red;
     margin-bottom: 38px;
 
 }
 
 .summary {
-    border: 1px solid red;
     font-size: 25px;
     display: flex;
     font-weight: bold;
